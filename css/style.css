@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: #000000;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #000000;
+}
+
+.navbar ul li a{
+    font-family: 'Playfair Display', serif;
+    color: snow !important;
+    margin: 0 35px;
+    transition: .5s;
+}
+
+/* Header */
+.header .main-header{
+    color: #fffaff;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #000000;
+    padding: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header .carousel-item .carousel-text{
+    width: 300px;
+    height: 300px;
+    background-color: snow;
+    padding: 20px;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+
+.header .carousel-item .carousel-text p{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    background-color: snow;
+}
+.header .carousel-item .carousel-text footer{
+    background-color: snow;
+}
+
+
+/* About */
+.about{
+    margin-top: 100px;
+    padding: 20px;
+}
+.about h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.about .col-lg-8 p{
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 3px;
+}
+/* About animasi */
+.about-animasi1{
+    background-color: #ffffff;
+    transition: 5s;
+}
+
+
+/* Services */
+.services{
+    margin-top: 200px;
+    height: 500px;
+}
+
+.services h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.services h4{
+    font-family: 'Playfair Display', serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.services p{
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 3px;
+}
+
+.services .col-sm-4{
+    text-align: center;
+}
+
+.services .col-sm-4 svg{
+    margin: 15px auto;
+}
+
+/* Services Animasi */
+.services-animasi1{
+    background-color: #000000;
+    transition: ease 2s;
+}
+
+
+/* Adopt */
+.adopt{
+    margin-top: 200px;
+    background-color: #000000;
+}
+
+.adopt h3{
+    font-family: 'Playfair Display', serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+.adopt h5,a{
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 3px;
+}
+
+.adopt p{
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 3px;
+    font-size: 14px;
+}
+
+.adopt .card{
+    opacity: 0;
+}
+
+.adopt .adopt-card img{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.adopt .adopt-card img:hover{
+    filter: grayscale(0);
+}
+
+.adopt .find-more{
+    font-family: 'Quicksand', sans-serif;
+    word-spacing: 3px;
+    font-size: 20px;
+    margin: 10px 0 50px 12px;
+    border-radius: 10px;
+}
+
+.adopt .col-lg-3{
+    margin-top: 20px;
+}
+
+/* Adopt Animasi */
+.adopt-animasi1{
+    background-color: #ffffff;
+    transition: 2s;
+}
+
+
+
+
+/* Footer */
+.footer{
+    background-color: #000000;
+    color: #ffffff;
+    height: 50px;
+    text-align: center;
+    margin: auto 0px;
+    padding: 10px;
+}
+
+
+@media (min-width: 1199.98px) {
+    /* navbar */
+    .navbar ul li a:hover{
+        transform: scale(1.5);
+        text-decoration: underline overline;
+    }
+
+    
+}
+
+@media (max-width: 575.98px) { 
+    
+}
